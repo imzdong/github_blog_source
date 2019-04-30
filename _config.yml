@@ -82,4 +82,4 @@ deploy:
   type: git
   repo: https://github.com/imzdong/imzdong.github.io.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
   branch: master #published
-  message: "deploy"
+  message: "Winter"

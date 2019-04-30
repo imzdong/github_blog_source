@@ -1,13 +1,14 @@
 ---
 title: 两步完成GitHub搭建个人博客
 date: 2019-04-29 16:01:33
-description: "文章摘要... ..."
 categories: 
 - 技术
 tags:
 - GitHubPages
 ---
 
+两步快速使用github搭建个人博客，借助第三方平台，博客服务器归第三方，自己仅控制博客的控制权（借助GitHub Pages+[Hexo](https://hexo.io/zh-cn/docs/index.html)）
+<!-- more -->
 # 一、为何要搭建个人博客？
 &emsp;&emsp;网上某大神说过“建站三阶段”（针对博客服务器及博客控制权区分）：
 > + 1、借助第三方平台，完全把控制权给第三方（比如博客园、CSDN、简书等平台）
@@ -48,3 +49,4 @@ tags:
 > 参考：
 [Hexo中文文档](https://hexo.io/zh-cn/docs/index.html)
 [Jekyll中文文档](http://jekyllcn.com/)
+[我的博客主题文档](https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/)

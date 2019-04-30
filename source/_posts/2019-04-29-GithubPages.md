@@ -3,7 +3,9 @@ title: 三步完成Github搭建个人博客
 date: 2019-04-29 16:01:33
 description: "文章摘要... ..."
 categories: 
+- 技术
 tags:
+- GitHubPages
 ---
 
 # 一、为何要搭建个人博客？

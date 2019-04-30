@@ -17,7 +17,7 @@
     e.stopPropagation();
     
     layer.style.display = 'block';
-    title.innerHTML = '打赏赞助';
+    title.innerHTML = '联系我';//'打赏赞助';
     rewardContainerDOM.style.display = 'flex';
 
     window.AD_CONFIG.layer.add(() => {

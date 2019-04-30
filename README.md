@@ -5,5 +5,10 @@
 2、创建分类页：hexo new page categories  
   配置分类页：修改分类页对应的md文件(your-blog/source/categories/index.md)的Front-matter，为其添加type属性  
 
+创建标签页：hexo new page tags
+
+配置标签页：修改标签页对应的md文件(your-blog/source/tags/index.md)的Front-matter，为其添加type属性
+
+
 $ hexo g -d
 $ hexo d -g

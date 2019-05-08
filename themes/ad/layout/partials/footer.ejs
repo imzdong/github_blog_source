@@ -30,6 +30,16 @@
         <i class="fa fa-at"></i> <%= theme.footer_contact %>
       </div>
     <% } %>
+
+    <% if (theme.mermaid.enable) { %>
+      <script src='https://unpkg.com/mermaid@<%= theme.mermaid.version %>/dist/mermaid.min.js'></script>
+      <script>
+        if (window.mermaid) {
+          mermaid.initialize({theme: 'forest'});
+        }
+      </script>
+    <% } %>
+
     <div class="site-footer-info">
       <i class="fa fa-copyright"></i> 
       2019 <a href="https://github.com/dongyuanxin/theme-ad/" target="_blank">Theme-AD</a>.

@@ -3,3 +3,4 @@
 + 创建分类页：hexo new page 分类名称  
 + 本地启动：hexo s
 + 发布GitHub Pages：hexo g -d或者hexo d -g
++ hexo clean

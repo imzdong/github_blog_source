@@ -1,0 +1,152 @@
+author: Winter
+
+keywords: Hexo, Theme-AD
+
+description: Winter的小站
+
+# 导航栏头部名称
+nav_name: Winter
+
+# 导航栏座右铭
+motto: "未来的生活由当下决定"
+
+github: "https://github.com/imzdong"
+
+# 站点图标和APP图标
+favicon: 
+  icon: /images/favicon.ico
+  touch_icon: /images/touch-icon.png
+
+# RSS文件位置
+rss: 
+
+# 自定义样式文件
+custom_styles: 
+
+# 自定义脚本文件
+custom_scripts: 
+
+# 代码高亮主题: normal | night | night blue | night bright | night eighties
+highlight_theme: "night eighties"
+
+# 开启数学公式渲染
+mathjax: true
+
+copyright:
+  enable: true
+  author: "Winter"
+  show_link: true
+  more: '版权声明: 本博客所有文章除特别声明外, 均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议. 转载请注明出处!'
+
+# 建站时间. 格式：YYYY-MM-DD
+start_time: "2019-04-29"
+
+# 如何开启 评论&统计 插件：https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/
+# Github大礼包：gitment， gitalk（推荐），gitter（推荐）; 三个都支持Markdown；
+#  基于leancloud的后端评论系统：Valine（推荐，支持Markdown）；
+#  国外的有几个：disqus(漂亮，但需翻墙)，hypercomments（推荐，不支持Markdown）.
+# https://valine.js.org/quickstart.html
+# 请申请自己的 appid 和 appkey，并且替换下面的 appid 和 appkey
+leancloud:
+  appid: rQjD6e46PdMB7qWJkRQHPFWG-gzGzoHsz # 填写您的appid
+  appkey: fkvuVzmkQeXElhkboINvUegJ # 填写您的appkey
+  comment: false # 是否开启评论系统
+  count: fasle # 是否开启文章统计
+
+# 需要保证leancloud.count为true
+welcome: 
+  enable: false
+  interval: 30
+
+# 需要保证leancloud.comment为false
+disqus: 
+  enable: false
+  id: 
+
+# 需要保证leancloud.count为false
+busuanzi: false
+
+# 存放sha256加密的密码
+# 拥有所有加锁文章的阅读权限
+#passwords:
+#  - "" # godbmw
+
+share:
+  twitter: false
+  facebook: false
+  weibo: true
+  qq: true
+  wechat: true
+
+analytics:
+  baidu:
+    enable: false
+  google:
+    enable: false
+    id: 
+  "360":
+    enable: false
+    id: 
+
+reward:
+  -
+    src: /images/wechat.jpg
+    alt: "WeChat"
+#  -
+#    src: /images/alipay.jpg
+#    alt: "AliPay"
+
+nav:
+  -
+    name: "首页"
+    path: "/"
+  -
+    name: "归档"
+    path: "/archives/"
+  -
+    name: "分类"
+    path: "/categories/"
+  -
+    name: "标签"
+    path: "/tags/"
+  -
+    name: "友链"
+    path: "/friends/"
+  -
+    name: "关于"
+    path: "/about/"
+
+footer:
+  -
+    title: "博客推荐"
+    children:
+      -
+        name: "GodBMW"
+        path: "https://godbmw.com/"
+      -
+        name: "Vamei的博客园"
+        path: "https://www.cnblogs.com/vamei/"
+
+  -
+    title: "系列教程"
+    children:
+      -
+        name: "本站主题教程"
+        path: "https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/"
+  -
+    title: "抓到我"
+    children:
+      -
+        name: "博客"
+        path: "https://blog.csdn.net/u012540337"
+
+footer_contact: "Email: zhoudong_dream@163.com"
+
+friends_avatar_cdn: 
+friends:
+  -
+    nickname: GodBMW
+    avatar: /images/friends/godbmw.png
+    site: https://godbmw.com/
+    meta: 主题作者
+    show: false

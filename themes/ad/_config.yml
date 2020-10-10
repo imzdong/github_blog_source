@@ -42,12 +42,16 @@ copyright:
 start_time: "2019-04-29"
 
 # 如何开启 评论&统计 插件：https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/
+# Github大礼包：gitment， gitalk（推荐），gitter（推荐）; 三个都支持Markdown；
+#  基于leancloud的后端评论系统：Valine（推荐，支持Markdown）；
+#  国外的有几个：disqus(漂亮，但需翻墙)，hypercomments（推荐，不支持Markdown）.
+# https://valine.js.org/quickstart.html
 # 请申请自己的 appid 和 appkey，并且替换下面的 appid 和 appkey
 leancloud:
   appid: rQjD6e46PdMB7qWJkRQHPFWG-gzGzoHsz # 填写您的appid
   appkey: fkvuVzmkQeXElhkboINvUegJ # 填写您的appkey
-  comment: true # 是否开启评论系统
-  count: true # 是否开启文章统计
+  comment: false # 是否开启评论系统
+  count: fasle # 是否开启文章统计
 
 # 需要保证leancloud.count为true
 welcome: 
@@ -145,4 +149,4 @@ friends:
     avatar: /images/friends/godbmw.png
     site: https://godbmw.com/
     meta: 主题作者
-    show: true
+    show: false

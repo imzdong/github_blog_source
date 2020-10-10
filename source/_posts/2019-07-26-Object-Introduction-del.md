@@ -8,9 +8,9 @@ tags:
 ---
 对象导论这一章花了两天看完，深有感触，使用百度脑图整理了简要知识点，并写下自己浅薄的认知！
 <!-- more -->
-![对象导论](/images/article/introduction/对象导论.png)
+![对象导论](/assets/images/article/introduction/对象导论.png)
 人与人之间通过语言交谈，人如果要控制计算机，就需要通过计算机看得懂的语言。也就是编程语言。编程语言发展：机器语言、汇编语言、高级语言（面向过程、面向对象）
-![编程语言](/images/article/introduction/语言图.jpg)
+![编程语言](/assets/images/article/introduction/语言图.jpg)
 ## 重要知识点
 ### 1、面向过程和面向对象
 面向过程：重视过程、把事务拆成步骤一步一步来。效率高  

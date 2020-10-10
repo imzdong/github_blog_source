@@ -4,3 +4,5 @@
 + 本地启动：hexo s
 + 发布GitHub Pages：hexo g -d或者hexo d -g
 + hexo clean
+
+git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia

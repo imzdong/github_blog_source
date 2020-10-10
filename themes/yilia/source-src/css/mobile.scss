@@ -216,7 +216,7 @@ html, body, #container {
             }
         }
     }
-    
+
     #article-nav-older{
         float: none;
         display: block;
@@ -227,6 +227,10 @@ html, body, #container {
 }
 .duoshuo {
     padding: 0 13px;
+}
+.valine-wrapper{
+  padding: 3px 13px;
+  background: white;
 }
 #disqus_thread {
     padding: 0 13px;

@@ -1,6 +1,12 @@
-#disqus_thread, .duoshuo, .cloud-tie-wrapper, #SOHUCS, #gitment-ctn {
+#disqus_thread, .duoshuo, .cloud-tie-wrapper, #SOHUCS, #gitment-ctn{
 	padding: 0 30px !important;
 	min-height: 20px;
+}
+
+.valine-wrapper {
+  padding: 25px 30px !important;
+  min-height: 20px;
+  background: white;
 }
 
 #SOHUCS {

@@ -76,6 +76,11 @@ share_jia: true
 #评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus；5、Gitment
 #不需要使用某项，直接设置值为false，或注释掉
 #具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/
+# Github大礼包：gitment， gitalk（推荐），gitter（推荐）; 三个都支持Markdown；
+#  基于leancloud的后端评论系统：Valine（推荐，支持Markdown）；
+#  国外的有几个：disqus(漂亮，但需翻墙)，hypercomments（推荐，不支持Markdown）.
+# https://valine.js.org/quickstart.html
+# 请申请自己的 appid 和 appkey，并且替换下面的 appid 和 appkey
 
 #1、多说
 duoshuo: false
@@ -92,10 +97,15 @@ disqus: false
 
 #5、Gitment
 gitment_owner: false      #你的 GitHub ID
-gitment_repo: ''          #存储评论的 repo
+gitment_repo: 'blog_comment'          #存储评论的 repo
 gitment_oauth:
-  client_id: ''           #client ID
-  client_secret: ''       #client secret
+  client_id: '36dc7817601729e4ecab'           #client ID
+  client_secret: '3560ca1654c32442e5d598da5d15ef91b6cc6b41'       #client secret
+
+#6、Valine
+valine_open: true      #打开Valine评论
+valine_app_id: 'rQjD6e46PdMB7qWJkRQHPFWG-gzGzoHsz'
+valine_app_key: 'fkvuVzmkQeXElhkboINvUegJ'
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:

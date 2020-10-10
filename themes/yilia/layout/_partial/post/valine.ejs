@@ -1,0 +1,11 @@
+<div id="vcomments" class="valine-wrapper"></div>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+    var valine =  new Valine({
+        el: '#vcomments',
+        appId: '<%=theme.valine_app_id%>',
+        appKey: '<%=theme.valine_app_key%>',
+        avatar: 'robohash',
+        visitor: true // 阅读量统计
+    })
+</script>

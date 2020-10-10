@@ -4,7 +4,8 @@ Thumbs.db
 *.log
 node_modules/
 # public/
-.deploy*/
 .idea
 # .source/
 public/
+themes/yilia/source/
+/.deploy_git/

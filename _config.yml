@@ -80,7 +80,7 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/imzdong/imzdong.github.io.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  repo: https://github.com/imzdong/imzdong.github.io.git
   branch: master #published
   message: "Winter"
 # mermaid chart

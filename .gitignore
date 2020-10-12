@@ -7,5 +7,5 @@ node_modules/
 .idea
 # .source/
 public/
-themes/yilia/source/
 /.deploy_git/
+#themes/yilia/source/

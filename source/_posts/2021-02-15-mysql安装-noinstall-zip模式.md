@@ -4,6 +4,8 @@ date: 2021-02-15 21:00:35
 tags:
 ---
 
+mysql安装-no-install-zip，使用zip格式文件安装mysql。
+<!-- more -->
 ### mysql安装no-install-zip模式
 
 > [mysql下载地址](https://dev.mysql.com/downloads/mysql/)

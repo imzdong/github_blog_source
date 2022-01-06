@@ -3,7 +3,7 @@ title: HBase简单使用
 date: 2022-01-07 07:28:51
 categories:
 - 开源工具
-  tags:
+tags:
 - pdf
 ---
 

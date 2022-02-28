@@ -80,9 +80,9 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/imzdong/imzdong.github.io.git
+  repo: https://gh_token@github.com/imzdong/imzdong.github.io.git
   branch: master #published
-  message: "Winter"
+#  message: "Winter"
 # mermaid chart
 mermaid: ## mermaid url https://github.com/knsv/mermaid
   enable: true  # default true

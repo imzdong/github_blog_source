@@ -39,10 +39,10 @@ jobs:
         run: |
           npm install
           npm install hexo-deployer-git -save  
-          npm install hexo-cli
           
       - name: Deploy
         run: |
+          npm install hexo-cli
           hexo clean
           sed -i "s/gh_token/${{secrets.GH_TOKEN}}/g" ./config.yml
           hexo deploy

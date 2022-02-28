@@ -32,8 +32,8 @@ jobs:
 
       - name: Set git
         run: |
-          git config user.email "zhoudong_dream@163.com"
-          git config user.name "Winter"
+          git config --global user.email "zhoudong_dream@163.com"
+          git config --global user.name "Winter"
           
       - name: Install
         run: |

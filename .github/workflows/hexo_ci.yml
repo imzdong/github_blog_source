@@ -44,8 +44,6 @@ jobs:
         run: |
           npm install -g hexo-cli
           hexo clean
-          ls
           hexo generate
-          ls
-          sed -i "s/gh_token/${{secrets.GH_TOKEN}}/g" ./config.yml
+          sed -i "s/gh_token/${{secrets.GH_TOKEN}}/g" config.yml
           hexo deploy

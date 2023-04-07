@@ -1,3 +1,7 @@
+#### 项目启动 
+* npm install
+* 
+
 #### 博客常用命令 
 + 新建文章：hexo new "title" （2019-xx-xx-Think_In_Java）
 + 创建分类页：hexo new page 分类名称  
